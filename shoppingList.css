@@ -1,0 +1,8 @@
+*{
+    text-align: center;
+    align-items: center;
+    list-style: none;
+}
+ul#list{
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="shoppingList.css">
+</head>
+<body>
+<h1>Shopping List</h1>
+<form onsubmit="return false">
+    <label for="item">Add Item: </label>
+    <input id="item" type="text" required>
+    <button>Add to Shopping list</button>
+</form>
+<ul id="list"></ul>
+<button id="removeFromList">Remove All</button>
+<h1>Purchased Items
+</h1>
+<ul id="purchased"></ul>
+<button id="removePurchased">Remove All</button>
+
+<script defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script defer src="code.js"></script>
+
+</body>
+</html>
